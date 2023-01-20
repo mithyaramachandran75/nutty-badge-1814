@@ -2,7 +2,10 @@ import './App.css';
 import Home from './components/Home';
 import Homepage from './components/Homepage';
 import Navbar from './components/Navbar';
-import Navbar1 from './components/Navbar1'
+import Navbar1 from './components/Navbar1';
+import Main from './components/Main';
+import Footer from "./components/Footer"
+import Registration from './components/Registration';
 
 function App() {
   return (
@@ -22,6 +25,8 @@ function App() {
       </div>
       <Home />
       <Homepage />
+      <Main />
+      <Footer />
     </div>
   );
 }

@@ -1,10 +1,13 @@
 import {Box, Image,Input,Text} from "@chakra-ui/react"
 import { BsFillPersonFill ,BsFillCartCheckFill,BsHeart } from "react-icons/bs";
+import {Link} from "react-router-dom"
 const Navbar=()=>{
     return(
         <Box h="4.2rem" w="100%"  display="flex" background={"white"}>
        <Box marginLeft="3.5rem" marginTop="-2.5rem" h="9rem" w="12rem">
+         {/* <Link to='/'> */}
             <Image boxSize="100%" src="https://appreviewsbusiness.files.wordpress.com/2020/02/craftsvilla-logo-01-1024x683-1.png"/>
+         {/* </Link> */}
        </Box>
       <Box  marginTop="1rem" marginLeft="3rem" >
       <Input  borderRadius="4"  height="2.5rem"  width="23rem" placeholder='SEARCH : 𝐘𝐨𝐮 𝐚𝐫𝐞 𝐬𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 𝐟𝐨𝐫' size='xlg' />
