@@ -1,4 +1,5 @@
 import{Box,Text} from "@chakra-ui/react"
+import { Link } from "@chakra-ui/react"
 
 const Navbar1=()=>{
 return(

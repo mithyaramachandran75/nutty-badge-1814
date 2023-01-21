@@ -16,13 +16,13 @@
 }
 #b1{
   color: white;
-  margin-top:-.5rem;
+  margin-top:.5rem;
   font-weight: 500;
   font-size: 1.3rem;
 }
 #b2{
   color: white;
-  margin-top:-.5rem;
+  margin-top:.5rem;
   font-weight: 500;
   font-size: 1.3rem;
 }
@@ -32,9 +32,9 @@
   height: 450px;
 }
 button{
-  margin-top: 20rem;
+  margin-top: -25rem;
   margin-left: 1rem;
 }
 svg{
-  margin-top: .5rem;
+  margin-top: .4rem;
 }

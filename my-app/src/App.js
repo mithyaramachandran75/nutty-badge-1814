@@ -1,11 +1,10 @@
 import './App.css';
-import Home from './components/Home';
-import Homepage from './components/Homepage';
 import Navbar from './components/Navbar';
 import Navbar1 from './components/Navbar1';
-import Main from './components/Main';
-import Footer from "./components/Footer"
-import Registration from './components/Registration';
+ import Footer from "./components/Footer"
+import AllRoutes from './Routes/AllRoutes';
+import Main from './Routes/Main';
+import Homepage from './Routes/Homepage';
 
 function App() {
   return (
@@ -23,7 +22,7 @@ function App() {
 
         <div style={{flex: 1, height: '1px', backgroundColor: 'grey'}} />
       </div>
-      <Home />
+      <AllRoutes />
       <Homepage />
       <Main />
       <Footer />
